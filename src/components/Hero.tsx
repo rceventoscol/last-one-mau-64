@@ -1,30 +1,24 @@
 
 import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
-import { useState, useEffect } from "react";
 
 export const Hero = () => {
-  const [imageLoaded, setImageLoaded] = useState(false);
-
-  useEffect(() => {
-    // Usamos una imagen directa sin pasar por el sistema de carga condicional
-    const backgroundElement = document.querySelector('.hero-background');
-    if (backgroundElement) {
-      setImageLoaded(true);
-    }
-  }, []);
-
   return (
     <section id="inicio" className="min-h-[90vh] flex items-center relative overflow-hidden">
-      {/* Background Image - aplicamos un fondo estático con degradado como fallback */}
+      {/* Background Image with direct application and a darker overlay */}
       <div 
-        className="hero-background absolute inset-0 z-0 bg-cover bg-center" 
+        className="absolute inset-0 z-0"
         style={{ 
           backgroundImage: "url('/lovable-uploads/2c377b28-3235-43c2-8608-44e1c654c180.png')",
-          backgroundColor: "rgba(0,0,0,0.5)", // Color de fallback más oscuro
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundColor: "#000000", // Solid black fallback
           backgroundBlendMode: "overlay"
         }}
       />
+      
+      {/* Dark overlay to ensure content visibility */}
+      <div className="absolute inset-0 z-0 bg-black opacity-40"></div>
       
       {/* Content */}
       <div className="container relative z-10 px-4 sm:px-6 lg:px-8 py-20 md:py-32">
