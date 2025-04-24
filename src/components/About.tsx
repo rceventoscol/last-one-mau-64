@@ -1,4 +1,3 @@
-
 export const About = () => {
   return (
     <section id="about" className="py-16 md:py-24 bg-gradient-to-b from-white to-secondary/10">
@@ -9,7 +8,7 @@ export const About = () => {
             <div className="relative">
               <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-xl">
                 <img 
-                  src="/lovable-uploads/b18a4f74-55e6-4c15-aee9-c2f09bffa751.png" 
+                  src="/lovable-uploads/bbfb8c8e-46c3-4e28-a7a7-8c882153ec47.png" 
                   alt="Mauricio, fundador de Tierra Fértil" 
                   className="w-full h-full object-cover"
                 />
@@ -43,4 +42,3 @@ export const About = () => {
     </section>
   );
 };
-
