@@ -1,13 +1,28 @@
 
 import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
+import { useState, useEffect } from "react";
 
 export const Hero = () => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = "/lovable-uploads/cace03e0-8958-457b-b6f3-7643eee6873e.png";
+    img.onload = () => setImageLoaded(true);
+    img.onerror = () => {
+      console.error("Error cargando la imagen del hero");
+      setImageLoaded(false);
+    };
+  }, []);
+
   return (
     <section id="inicio" className="min-h-[90vh] flex items-center relative overflow-hidden">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 z-0 bg-cover bg-center brightness-[0.85]" 
+        className={`absolute inset-0 z-0 bg-cover bg-center brightness-[0.85] transition-opacity duration-500 ${
+          imageLoaded ? 'opacity-100' : 'opacity-0 bg-gray-200'
+        }`} 
         style={{ 
           backgroundImage: "url('/lovable-uploads/cace03e0-8958-457b-b6f3-7643eee6873e.png')",
           backgroundColor: "rgba(0,0,0,0.4)",
