@@ -9,7 +9,7 @@ export const About = () => {
             <div className="relative">
               <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  src="/lovable-uploads/b18a4f74-55e6-4c15-aee9-c2f09bffa751.png" 
                   alt="Mauricio, fundador de Tierra Fértil" 
                   className="w-full h-full object-cover"
                 />

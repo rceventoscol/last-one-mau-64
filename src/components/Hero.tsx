@@ -9,7 +9,7 @@ export const Hero = () => {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center brightness-[0.85]" 
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80')", 
+          backgroundImage: "url('/lovable-uploads/ccd34d37-c29d-4001-8b61-6d566baf05eb.png')", 
           backgroundColor: "rgba(0,0,0,0.4)",
           backgroundBlendMode: "overlay"
         }}
