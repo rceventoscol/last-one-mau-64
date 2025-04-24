@@ -1,4 +1,3 @@
-
 import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
 
@@ -9,7 +8,7 @@ export const Hero = () => {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center brightness-[0.85]" 
         style={{ 
-          backgroundImage: "url('/lovable-uploads/ccd34d37-c29d-4001-8b61-6d566baf05eb.png')", 
+          backgroundImage: "url('/path/to/new/image.jpg')", // Reemplaza esto con la ruta correcta
           backgroundColor: "rgba(0,0,0,0.4)",
           backgroundBlendMode: "overlay"
         }}
@@ -40,4 +39,3 @@ export const Hero = () => {
     </section>
   );
 };
-
