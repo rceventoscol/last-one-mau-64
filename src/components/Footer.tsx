@@ -3,11 +3,26 @@ import { Phone, Mail, MapPin } from "lucide-react";
 
 export const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12">
-      <div className="container px-4 sm:px-6 lg:px-8">
+    <footer className="relative bg-gray-900 text-white py-12 overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 z-0"
+        style={{ 
+          backgroundImage: "url('/lovable-uploads/c88bf281-061d-4a0f-8bf6-e67b2bfaa0ae.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          opacity: 0.15 // Subtle overlay to ensure text readability
+        }}
+      />
+      
+      <div className="container relative z-10 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between gap-8">
           <div className="md:w-1/3">
-            <h3 className="text-xl font-bold mb-4 font-playfair">Tierra Fértil</h3>
+            <img 
+              src="/lovable-uploads/ba988d69-e258-4541-b72e-0bb61a95dfa0.png" 
+              alt="Tierra Fértil Logo" 
+              className="h-20 mb-4"
+            />
             <p className="text-gray-300 mb-4 font-poppins">
               Transformamos espacios en paraísos naturales desde 2008. 
               Nuestro compromiso es crear jardines que reflejen la belleza y equilibrio 
@@ -51,3 +66,4 @@ export const Footer = () => {
     </footer>
   );
 };
+
