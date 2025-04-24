@@ -18,11 +18,20 @@ export const Hero = () => {
       />
       
       {/* Dark overlay to ensure content visibility */}
-      <div className="absolute inset-0 z-0 bg-black opacity-50"></div>
+      <div className="absolute inset-0 z-0 bg-black opacity-40"></div>
+      
+      {/* Logo */}
+      <div className="absolute top-8 left-1/2 transform -translate-x-1/2 z-20">
+        <img 
+          src="/lovable-uploads/ba988d69-e258-4541-b72e-0bb61a95dfa0.png" 
+          alt="Tierra Fértil Logo" 
+          className="h-28 md:h-32"
+        />
+      </div>
       
       {/* Content */}
       <div className="container relative z-10 px-4 sm:px-6 lg:px-8 py-20 md:py-32">
-        <div className="max-w-3xl animate-fade-in">
+        <div className="max-w-3xl animate-fade-in mt-16">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-playfair leading-tight">
             Transformamos espacios en paraísos naturales.
           </h1>
