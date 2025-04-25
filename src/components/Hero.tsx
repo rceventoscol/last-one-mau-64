@@ -5,20 +5,19 @@ import { Button } from "./ui/button";
 export const Hero = () => {
   return (
     <section id="inicio" className="min-h-[90vh] flex items-center relative overflow-hidden">
-      {/* Background Image with direct application and a darker overlay */}
+      {/* Background Image with direct application */}
       <div 
         className="absolute inset-0 z-0"
         style={{ 
-          backgroundImage: "url('/lovable-uploads/cb8a2d74-ed26-405a-a890-dd2f3eda1188.png')",
+          backgroundImage: "url('/lovable-uploads/0b04660c-b671-4579-af5b-18010e379fb3.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          backgroundColor: "#000000", // Solid black fallback
-          backgroundBlendMode: "overlay"
+          backgroundRepeat: "no-repeat",
         }}
       />
       
-      {/* Dark overlay to ensure content visibility */}
-      <div className="absolute inset-0 z-0 bg-black opacity-50"></div>
+      {/* Dark overlay with reduced opacity to ensure content visibility without hiding the image */}
+      <div className="absolute inset-0 z-0 bg-black opacity-30"></div>
       
       {/* Logo */}
       <div className="absolute top-8 left-1/2 transform -translate-x-1/2 z-20">
