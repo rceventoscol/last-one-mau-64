@@ -9,7 +9,7 @@ export const Hero = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{ 
-          backgroundImage: "url('/lovable-uploads/fe256f68-74fe-4f18-9a0a-1a056ad51223.png')",
+          backgroundImage: "url('/lovable-uploads/c014f6a1-5f0d-4a44-9a90-470150c11c76.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundColor: "#000000", // Solid black fallback
