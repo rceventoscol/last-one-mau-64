@@ -9,7 +9,7 @@ export const Hero = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{ 
-          backgroundImage: "url('/lovable-uploads/c014f6a1-5f0d-4a44-9a90-470150c11c76.png')",
+          backgroundImage: "url('/lovable-uploads/cb8a2d74-ed26-405a-a890-dd2f3eda1188.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundColor: "#000000", // Solid black fallback
@@ -18,7 +18,7 @@ export const Hero = () => {
       />
       
       {/* Dark overlay to ensure content visibility */}
-      <div className="absolute inset-0 z-0 bg-black opacity-40"></div>
+      <div className="absolute inset-0 z-0 bg-black opacity-50"></div>
       
       {/* Logo */}
       <div className="absolute top-8 left-1/2 transform -translate-x-1/2 z-20">
