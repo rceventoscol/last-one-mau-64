@@ -1,17 +1,12 @@
 export const About = () => {
-  return (
-    <section id="about" className="py-16 md:py-24 bg-gradient-to-b from-white to-secondary/10">
+  return <section id="about" className="py-16 md:py-24 bg-gradient-to-b from-white to-secondary/10">
       <div className="container px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
           {/* Image */}
           <div className="md:w-1/2 mb-8 md:mb-0">
             <div className="relative">
               <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-xl">
-                <img 
-                  src="/lovable-uploads/bbfb8c8e-46c3-4e28-a7a7-8c882153ec47.png" 
-                  alt="Mauricio, fundador de Tierra Fértil" 
-                  className="w-full h-full object-cover"
-                />
+                <img alt="Mauricio, fundador de Tierra Fértil" className="w-full h-full object-cover" src="/lovable-uploads/a9f23d85-67b5-41ff-a389-777fded64528.jpg" />
               </div>
               {/* Accent element */}
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent/80 rounded-full z-0"></div>
@@ -39,6 +34,5 @@ export const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
