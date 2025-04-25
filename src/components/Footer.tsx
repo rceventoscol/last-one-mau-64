@@ -60,10 +60,9 @@ export const Footer = () => {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 font-poppins text-sm">
-          <p>© {new Date().getFullYear()} Tierra Fértil Paisajismo. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} Tierra Fértil Paisajismo - Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
   );
 };
-
