@@ -43,8 +43,13 @@ export const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
+            <img 
+              src="/lovable-uploads/ba988d69-e258-4541-b72e-0bb61a95dfa0.png" 
+              alt="Tierra Fértil Logo" 
+              className="h-16 md:h-20"
+            />
             <span className={cn(
-              "text-2xl font-bold font-playfair transition-colors",
+              "text-2xl font-bold font-playfair transition-colors ml-4",
               isScrolled ? "text-primary" : "text-white"
             )}>
               Tierra Fértil
