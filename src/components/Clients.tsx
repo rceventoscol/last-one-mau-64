@@ -1,22 +1,29 @@
+
 import { useState, useEffect } from "react";
 import { GalleryHorizontal } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const clients = [{
   id: 1,
-  name: "Carolina Sánchez",
+  name: "Melina Ramirez",
   title: "Presentadora de TV",
-  image: "/lovable-uploads/b5746583-9efb-4d7f-a71e-33c922584104.png"
+  image: "/lovable-uploads/b5746583-9efb-4d7f-a71e-33c922584104.png",
+  quote: "Nunca imaginé que mi terraza pudiera convertirse en un pequeño paraíso. Mauricio y su equipo no solo trajeron plantas, trajeron vida. Ahora mi espacio es mi lugar favorito del mundo.",
+  since: "2021"
 }, {
   id: 2,
-  name: "Fernando Restrepo",
-  title: "Arquitecto Renombrado",
-  image: "/lovable-uploads/44596661-0c32-4663-890b-e1590adf0798.png"
+  name: "Jorge Rausch",
+  title: "Celebrity Chef",
+  image: "/lovable-uploads/44596661-0c32-4663-890b-e1590adf0798.png",
+  quote: "Como chef, para mí el ambiente es parte del menú. Tierra Fértil entendió eso desde el primer momento. Nuestro jardín vertical no solo embellece el lugar, sino que se volvió parte de la experiencia para los comensales.",
+  since: "2019"
 }, {
   id: 3,
-  name: "Hotel Santamaría",
-  title: "Jardines del Lobby",
-  image: "/lovable-uploads/be60b41b-5158-4777-ae06-1add48ecb9bb.png"
+  name: "Nicolás De Zubiría",
+  title: "Celebrity Chef",
+  image: "/lovable-uploads/be60b41b-5158-4777-ae06-1add48ecb9bb.png",
+  quote: "Quería un espacio verde para nuestra oficina que no fuera simplemente decorativo, sino inspirador. Tierra Fértil creó un diseño que mejora el ambiente de trabajo y nos conecta con la naturaleza todos los días.",
+  since: "2020"
 }];
 
 export const Clients = () => {
@@ -29,9 +36,11 @@ export const Clients = () => {
     }, 4000);
     return () => clearInterval(interval);
   }, []);
+  
   const goToSlide = (index: number) => {
     setActiveIndex(index);
   };
+  
   return <section id="clientes" className="py-16 md:py-24 bg-gradient-to-b from-secondary/10 to-white">
       <div className="container px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
@@ -60,12 +69,11 @@ export const Clients = () => {
                     {client.title}
                   </p>
                   <blockquote className="text-gray-700 italic mb-6 font-poppins">
-                    "La experiencia con Tierra Fértil fue transformadora. Su equipo dio vida a mi visión 
-                    con un nivel de detalle y creatividad que superó mis expectativas."
+                    "{client.quote}"
                   </blockquote>
                   <div className="mt-auto">
                     <span className="inline-block text-primary font-medium font-poppins">
-                      Cliente desde 2019
+                      Cliente desde {client.since}
                     </span>
                   </div>
                 </div>
