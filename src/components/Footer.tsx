@@ -13,7 +13,7 @@ export const Footer = () => {
       <div className="container relative z-10 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between gap-8">
           <div className="md:w-1/3">
-            <img src="/lovable-uploads/ba988d69-e258-4541-b72e-0bb61a95dfa0.png" alt="Tierra Fértil Logo" className="h-20 mb-4" />
+            <img src="/lovable-uploads/e494f777-3b8f-4d0e-856e-d580f7adcc63.png" alt="Tierra Fértil Logo" className="h-20 mb-4" />
             <p className="mb-4 font-poppins text-zinc-800">
               Transformamos espacios en paraísos naturales desde 2008. 
               Nuestro compromiso es crear jardines que reflejen la belleza y equilibrio 

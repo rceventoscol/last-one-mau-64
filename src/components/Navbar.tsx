@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
@@ -30,7 +31,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <img src="/lovable-uploads/ba988d69-e258-4541-b72e-0bb61a95dfa0.png" alt="Tierra Fértil Logo" className="h-16 md:h-20" />
+            <img src="/lovable-uploads/e494f777-3b8f-4d0e-856e-d580f7adcc63.png" alt="Tierra Fértil Logo" className="h-16 md:h-20" />
             <span className={cn("text-2xl font-bold font-playfair transition-colors ml-4", isScrolled ? "text-primary" : "text-white")}>
           </span>
           </div>
