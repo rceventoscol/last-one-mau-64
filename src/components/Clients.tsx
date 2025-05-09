@@ -5,17 +5,17 @@ const clients = [{
   id: 1,
   name: "Carolina Sánchez",
   title: "Presentadora de TV",
-  image: "/lovable-uploads/b5746583-9efb-4d7f-a71e-33c922584104.png"
+  image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
 }, {
   id: 2,
   name: "Fernando Restrepo",
   title: "Arquitecto Renombrado",
-  image: "/lovable-uploads/44596661-0c32-4663-890b-e1590adf0798.png"
+  image: "https://images.unsplash.com/photo-1466721591366-2d5fba72006d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
 }, {
   id: 3,
   name: "Hotel Santamaría",
   title: "Jardines del Lobby",
-  image: "/lovable-uploads/be60b41b-5158-4777-ae06-1add48ecb9bb.png"
+  image: "https://images.unsplash.com/photo-1493962853295-0fd70327578a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
 }];
 export const Clients = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -57,7 +57,10 @@ export const Clients = () => {
                   <p className="text-accent font-medium mb-4 font-poppins">
                     {client.title}
                   </p>
-                  <blockquote className="text-gray-700 italic mb-6 font-poppins">SDSD"La experiencia con Tierra Fértil fue transformadora. Su equipo dio vida a mi visión con un nivel de detalle y creatividad que superó mis expectativas."</blockquote>
+                  <blockquote className="text-gray-700 italic mb-6 font-poppins">
+                    "La experiencia con Tierra Fértil fue transformadora. Su equipo dio vida a mi visión 
+                    con un nivel de detalle y creatividad que superó mis expectativas."
+                  </blockquote>
                   <div className="mt-auto">
                     <span className="inline-block text-primary font-medium font-poppins">
                       Cliente desde 2019
