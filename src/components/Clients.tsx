@@ -7,21 +7,21 @@ const clients = [{
   id: 1,
   name: "Melina Ramirez",
   title: "Presentadora de TV",
-  image: "/lovable-uploads/b5746583-9efb-4d7f-a71e-33c922584104.png",
+  image: "/lovable-uploads/77adeb67-35d0-4cd9-a534-1a4f8e018b1f.png",
   quote: "Nunca imaginé que mi terraza pudiera convertirse en un pequeño paraíso. Mauricio y su equipo no solo trajeron plantas, trajeron vida. Ahora mi espacio es mi lugar favorito del mundo.",
   since: "2021"
 }, {
   id: 2,
   name: "Jorge Rausch",
   title: "Celebrity Chef",
-  image: "/lovable-uploads/44596661-0c32-4663-890b-e1590adf0798.png",
+  image: "/lovable-uploads/268ce176-58c1-4800-abe6-9b402f85b82f.png",
   quote: "Como chef, para mí el ambiente es parte del menú. Tierra Fértil entendió eso desde el primer momento. Nuestro jardín vertical no solo embellece el lugar, sino que se volvió parte de la experiencia para los comensales.",
   since: "2019"
 }, {
   id: 3,
   name: "Nicolás De Zubiría",
   title: "Celebrity Chef",
-  image: "/lovable-uploads/be60b41b-5158-4777-ae06-1add48ecb9bb.png",
+  image: "/lovable-uploads/15d2f23b-c051-4996-a9f4-9b37ed9fc529.png",
   quote: "Quería un espacio verde para nuestra oficina que no fuera simplemente decorativo, sino inspirador. Tierra Fértil creó un diseño que mejora el ambiente de trabajo y nos conecta con la naturaleza todos los días.",
   since: "2020"
 }];
