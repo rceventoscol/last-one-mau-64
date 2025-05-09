@@ -1,4 +1,3 @@
-
 import { Phone, Mail, MapPin } from "lucide-react";
 export const Footer = () => {
   return <footer className="relative bg-gray-900 text-white py-12 overflow-hidden">
