@@ -6,21 +6,21 @@ import { cn } from "@/lib/utils";
 const projects = [
   {
     id: 1,
-    title: "Jardín Tropical Exuberante",
-    description: "Hojas grandes y exóticas que transforman espacios con su presencia imponente.",
-    image: "/lovable-uploads/a2aac72e-b98b-4a96-8962-34477f8ec642.png"
+    title: "Hotel Intercontinental",
+    description: "Diseño xerófito con cactus y suculentas que resalta la belleza natural del desierto.",
+    image: "/lovable-uploads/e195f8a4-8165-4813-9086-17a3b90ee3d2.png"
   },
   {
     id: 2,
-    title: "Colección de Colocasias",
-    description: "Elegantes hojas de tonos oscuros que aportan dramatismo y contraste.",
-    image: "/lovable-uploads/3c429738-fbd3-4bb0-8359-a6f58e2810ec.png"
+    title: "Centro Comercial Cacique",
+    description: "Composición de cactus y rocas que crea un paisaje desértico elegante y sostenible.",
+    image: "/lovable-uploads/228ccc2f-de70-4a9e-a335-14ae754f5d8c.png"
   },
   {
     id: 3,
-    title: "Jardín Interior de Cactus",
-    description: "Composición desértica que combina texturas y formas escultóricas.",
-    image: "/lovable-uploads/d4f333e7-24df-41ef-bc37-c232942a1303.png"
+    title: "Clínica Foscal Internacional",
+    description: "Jardín de cactus y suculentas entre rocas monumentales para un ambiente sereno y natural.",
+    image: "/lovable-uploads/62af103e-8aa6-4f57-933d-62f52f060779.png"
   },
   {
     id: 4,
