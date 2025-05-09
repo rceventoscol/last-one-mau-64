@@ -1,10 +1,12 @@
+
 import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
+
 export const Hero = () => {
   return <section id="inicio" className="min-h-[90vh] flex items-center relative overflow-hidden">
       {/* Background Image with direct application */}
       <div className="absolute inset-0 z-0" style={{
-      backgroundImage: "url('/lovable-uploads/0b04660c-b671-4579-af5b-18010e379fb3.png')",
+      backgroundImage: "url('/lovable-uploads/5255cdda-0d9a-4169-a826-6430c01fbf0c.png')",
       backgroundSize: "cover",
       backgroundPosition: "center",
       backgroundRepeat: "no-repeat"
