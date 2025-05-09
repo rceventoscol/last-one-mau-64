@@ -1,3 +1,4 @@
+
 import { Phone, Mail, MapPin } from "lucide-react";
 export const Footer = () => {
   return <footer className="relative bg-gray-900 text-white py-12 overflow-hidden">
@@ -25,7 +26,7 @@ export const Footer = () => {
             <ul className="space-y-3 font-poppins">
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-accent" />
-                <span className="text-zinc-950">+57 300 123 4567</span>
+                <span className="text-zinc-950">+57 319 562 3951</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-accent" />
