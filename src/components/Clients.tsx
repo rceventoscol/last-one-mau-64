@@ -57,7 +57,7 @@ export const Clients = () => {
                   <p className="text-accent font-medium mb-4 font-poppins">
                     {client.title}
                   </p>
-                  <blockquote className="text-gray-700 italic mb-6 font-poppins">SDSD"La experiencia con Tierra Fértil fue transformadora. Su equipo dio vida a mi visión con un nivel de detalle y creatividad que superó mis expectativas."</blockquote>
+                  <blockquote className="text-gray-700 italic mb-6 font-poppins">D</blockquote>
                   <div className="mt-auto">
                     <span className="inline-block text-primary font-medium font-poppins">
                       Cliente desde 2019
