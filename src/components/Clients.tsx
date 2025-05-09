@@ -1,22 +1,24 @@
 import { useState, useEffect } from "react";
 import { GalleryHorizontal } from "lucide-react";
 import { cn } from "@/lib/utils";
+
 const clients = [{
   id: 1,
   name: "Carolina Sánchez",
   title: "Presentadora de TV",
-  image: "https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  image: "/lovable-uploads/b5746583-9efb-4d7f-a71e-33c922584104.png"
 }, {
   id: 2,
   name: "Fernando Restrepo",
   title: "Arquitecto Renombrado",
-  image: "https://images.unsplash.com/photo-1466721591366-2d5fba72006d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  image: "/lovable-uploads/44596661-0c32-4663-890b-e1590adf0798.png"
 }, {
   id: 3,
   name: "Hotel Santamaría",
   title: "Jardines del Lobby",
-  image: "https://images.unsplash.com/photo-1493962853295-0fd70327578a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  image: "/lovable-uploads/be60b41b-5158-4777-ae06-1add48ecb9bb.png"
 }];
+
 export const Clients = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
