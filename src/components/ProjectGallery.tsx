@@ -6,33 +6,33 @@ import { cn } from "@/lib/utils";
 const projects = [
   {
     id: 1,
-    title: "Jardín Vertical Corporativo",
-    description: "Transformación de espacios de oficina con naturaleza vertical.",
-    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    title: "Jardín Tropical Exuberante",
+    description: "Hojas grandes y exóticas que transforman espacios con su presencia imponente.",
+    image: "/lovable-uploads/a2aac72e-b98b-4a96-8962-34477f8ec642.png"
   },
   {
     id: 2,
-    title: "Oasis Residencial",
-    description: "Un retiro tropical en un entorno urbano.",
-    image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    title: "Colección de Colocasias",
+    description: "Elegantes hojas de tonos oscuros que aportan dramatismo y contraste.",
+    image: "/lovable-uploads/3c429738-fbd3-4bb0-8359-a6f58e2810ec.png"
   },
   {
     id: 3,
-    title: "Jardín Zen Empresarial",
-    description: "Espacio de tranquilidad para hoteles y empresas.",
-    image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    title: "Jardín Interior de Cactus",
+    description: "Composición desértica que combina texturas y formas escultóricas.",
+    image: "/lovable-uploads/d4f333e7-24df-41ef-bc37-c232942a1303.png"
   },
   {
     id: 4,
-    title: "Paisajismo Contemporáneo",
-    description: "Líneas limpias y geometrías innovadoras.",
-    image: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    title: "Paisajismo Xerófito",
+    description: "Jardín sostenible con especies de bajo consumo hídrico y gran impacto visual.",
+    image: "/lovable-uploads/54a6f812-ec17-4e9e-966c-f5d89c076813.png"
   },
   {
     id: 5,
-    title: "Jardín Tropical Exótico",
-    description: "Colección de especies raras en armonía visual.",
-    image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    title: "Follaje Tropical Denso",
+    description: "Creación de microclimas con abundante vegetación de hojas anchas.",
+    image: "/lovable-uploads/8f37905e-a0fd-4ae0-9348-08f23b615b9e.png"
   },
 ];
 
