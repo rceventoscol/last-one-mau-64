@@ -6,31 +6,31 @@ import { cn } from "@/lib/utils";
 const projects = [
   {
     id: 1,
-    title: "Hotel Intercontinental",
+    title: "Casa en Ruitoque Alto",
     description: "Diseño xerófito con cactus y suculentas que resalta la belleza natural del desierto.",
     image: "/lovable-uploads/e195f8a4-8165-4813-9086-17a3b90ee3d2.png"
   },
   {
     id: 2,
-    title: "Centro Comercial Cacique",
+    title: "Necio Gastro Bar",
     description: "Composición de cactus y rocas que crea un paisaje desértico elegante y sostenible.",
     image: "/lovable-uploads/228ccc2f-de70-4a9e-a335-14ae754f5d8c.png"
   },
   {
     id: 3,
-    title: "Clínica Foscal Internacional",
+    title: "Zantorini Boutique",
     description: "Jardín de cactus y suculentas entre rocas monumentales para un ambiente sereno y natural.",
     image: "/lovable-uploads/62af103e-8aa6-4f57-933d-62f52f060779.png"
   },
   {
     id: 4,
-    title: "Paisajismo Xerófito",
+    title: "Jardin en La Mesa de los Santos",
     description: "Jardín sostenible con especies de bajo consumo hídrico y gran impacto visual.",
     image: "/lovable-uploads/54a6f812-ec17-4e9e-966c-f5d89c076813.png"
   },
   {
     id: 5,
-    title: "Follaje Tropical Denso",
+    title: "Oficinas Direct English",
     description: "Creación de microclimas con abundante vegetación de hojas anchas.",
     image: "/lovable-uploads/8f37905e-a0fd-4ae0-9348-08f23b615b9e.png"
   },
