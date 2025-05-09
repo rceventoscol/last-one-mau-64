@@ -6,7 +6,7 @@ export const About = () => {
           <div className="md:w-1/2 mb-8 md:mb-0">
             <div className="relative">
               <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-xl">
-                <img alt="Mauricio, fundador de Tierra Fértil" className="w-full h-full object-cover" src="/lovable-uploads/a9f23d85-67b5-41ff-a389-777fded64528.jpg" />
+                <img alt="Mauricio, fundador de Tierra Fértil" className="w-full h-full object-cover" src="/lovable-uploads/00ff4613-72a2-4117-ba26-080ae5035f62.jpg" />
               </div>
               {/* Accent element */}
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent/80 rounded-full z-0"></div>
