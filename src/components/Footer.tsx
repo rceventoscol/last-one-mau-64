@@ -7,7 +7,7 @@ export const Footer = () => {
       backgroundSize: "cover",
       backgroundPosition: "center",
       opacity: 0.15 // Subtle overlay to ensure text readability
-    }} className="absolute inset-0 z-0 bg-white" />
+    }} className="bg-white" />
       
       <div className="container relative z-10 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between gap-8">
