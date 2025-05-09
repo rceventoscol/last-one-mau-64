@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { GalleryHorizontal } from "lucide-react";
 import { cn } from "@/lib/utils";
-
 const clients = [{
   id: 1,
   name: "Carolina Sánchez",
@@ -18,7 +17,6 @@ const clients = [{
   title: "Jardines del Lobby",
   image: "/lovable-uploads/be60b41b-5158-4777-ae06-1add48ecb9bb.png"
 }];
-
 export const Clients = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -59,10 +57,7 @@ export const Clients = () => {
                   <p className="text-accent font-medium mb-4 font-poppins">
                     {client.title}
                   </p>
-                  <blockquote className="text-gray-700 italic mb-6 font-poppins">
-                    "La experiencia con Tierra Fértil fue transformadora. Su equipo dio vida a mi visión 
-                    con un nivel de detalle y creatividad que superó mis expectativas."
-                  </blockquote>
+                  <blockquote className="text-gray-700 italic mb-6 font-poppins">SDSD"La experiencia con Tierra Fértil fue transformadora. Su equipo dio vida a mi visión con un nivel de detalle y creatividad que superó mis expectativas."</blockquote>
                   <div className="mt-auto">
                     <span className="inline-block text-primary font-medium font-poppins">
                       Cliente desde 2019
