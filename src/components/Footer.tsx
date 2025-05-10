@@ -33,7 +33,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-center">
                 <MapPin className="h-5 w-5 mr-2 text-accent" />
-                <span className="text-zinc-800">Cra. 27 #56-45, Bucaramanga, Colombia</span>
+                <span className="text-zinc-800">Cll. 42 #29-27, Bucaramanga, Colombia</span>
               </li>
             </ul>
           </div>
