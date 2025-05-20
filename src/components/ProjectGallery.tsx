@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     title: "Casa en Ruitoque Alto",
     description: "Diseño xerófito con cactus y suculentas que resalta la belleza natural del desierto.",
-    image: "/lovable-uploads/e195f8a4-8165-4813-9086-17a3b90ee3d2.png"
+    image: "/lovable-uploads/a89e08d6-669d-40cb-950a-0d0cda395358.png"
   },
   {
     id: 2,
@@ -32,7 +32,13 @@ const projects = [
     id: 5,
     title: "Oficinas Direct English",
     description: "Creación de microclimas con abundante vegetación de hojas anchas.",
-    image: "/lovable-uploads/8f37905e-a0fd-4ae0-9348-08f23b615b9e.png"
+    image: "/lovable-uploads/a8851d29-e603-4c4b-9495-041a8bdf4a2e.png"
+  },
+  {
+    id: 6,
+    title: "Jardín Zen Residencial",
+    description: "Espacio de serenidad con elementos naturales y vegetación cuidadosamente seleccionada.",
+    image: "/lovable-uploads/0655d6ee-a5e8-4faf-a8a2-be131c2c3e2a.png"
   },
 ];
 
