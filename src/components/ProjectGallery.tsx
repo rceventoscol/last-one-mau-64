@@ -32,7 +32,7 @@ const projects = [
     id: 5,
     title: "Oficinas Direct English",
     description: "Creación de microclimas con abundante vegetación de hojas anchas.",
-    image: "/lovable-uploads/f4a5043c-0f0a-4f8c-9855-5eb39ebe7bd9.png"
+    image: "/lovable-uploads/a8851d29-e603-4c4b-9495-041a8bdf4a2e.png"
   },
   {
     id: 6,
